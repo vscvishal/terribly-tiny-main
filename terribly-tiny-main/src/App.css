@@ -1,0 +1,12 @@
+.App{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.full_image {
+  background-image: url("./images/university-6699377_640.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+}

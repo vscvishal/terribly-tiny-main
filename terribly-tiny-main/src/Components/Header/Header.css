@@ -1,0 +1,100 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 250px;
+    padding-left: 10%;
+}
+.Profile_Section{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+}
+.Profile_pic{
+    height: 200px;
+    width: 200px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-top: -100px;
+    background-image: url("../../images/passport.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+}
+.Profile_stats{
+    width: 50vh;
+    height: 15vh;
+    padding-left:15px;
+    display: flex;
+    flex-direction: column;
+}
+.Profile_Name{
+    font-size: 2rem;
+    padding-top: 10px;
+    display: flex;
+}
+.follower_status{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.following_count,.follower_count{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.total_followers,.total_following{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:80%;
+    font-size: large;
+    height: 45px;
+    padding:5px;
+}
+.profile_extra_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width:50%;
+}
+.profile_extra_position{
+    color: black;
+    font-size: large;
+    margin:5px 0px;
+}
+.profile_extra_section a{
+    cursor: pointer;
+    color: rgb(86, 86, 234);
+    text-decoration: none;
+    font-size: large;
+    margin:5px 0px;
+}
+.profile_extra_stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile_extra_stats div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.profile_extra_stats div span{
+    margin-left: 5px;
+}
+@media screen and (max-width: 850px) {
+    .Profile_pic{width: 100px;height: 100px}
+    .Profile_stats {width: 80%}
+  }
+  @media screen and (max-width: 450px) {
+    .Navbar{height: 8vh;}
+    .Navbar-left-side {width: 50%;padding-left: 5%;}
+    .Navbar-right-side {width: 40%;padding-right: 5%;}
+}
